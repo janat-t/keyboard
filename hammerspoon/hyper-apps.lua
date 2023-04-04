@@ -5,7 +5,7 @@
 -- your preferred shortcuts.
 return {
   { 'a', 'Music' },             -- "A" for "Apple Music"
-  { 'b', 'Safari' },            -- "B" for "Browser"
+  { 'b', 'Google Chrome' },     -- "B" for "Browser"
   { 'c', 'Slack' },             -- "C" for "Chat"
   { 'd', 'Discord' },           -- "D" for "Discord"
   { 'e', 'Mail' },              -- "E" for "E-Mail"
