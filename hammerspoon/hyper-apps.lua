@@ -8,7 +8,7 @@ return {
   { 'b', 'Google Chrome' },     -- "B" for "Browser"
   { 'c', 'Slack' },             -- "C" for "Chat"
   { 'd', 'Discord' },           -- "D" for "Discord"
-  { 'e', 'Mail' },              -- "E" for "E-Mail"
+  { 'e', 'Gmail' },             -- "E" for "E-Mail"
   { 'f', 'Finder' },            -- "F" for "Finder"
   { 'g', 'Gmail' },             -- "G" for "Gmail"
   { 'l', 'LINE' },              -- "L" for "Line"
