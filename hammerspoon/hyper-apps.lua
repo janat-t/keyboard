@@ -19,5 +19,6 @@ return {
   { 's', 'Slack' },                 -- "S" for "Slack"
   { 't', 'iTerm' },                 -- "T" for "Terminal"
   { 'v', 'Visual Studio Code' },    -- "V" for "VS Code"
+  { 'x', 'Xcode' },                 -- "X" for "Xcode"
   { 'z', 'zoom.us' },               -- "Z" for "Zoom"
 }
