@@ -1,5 +1,8 @@
 {
-    "global": { "show_profile_name_in_menu_bar": true },
+    "global": {
+        "show_in_menu_bar": false,
+        "show_profile_name_in_menu_bar": true
+    },
     "profiles": [
         {
             "complex_modifications": {
@@ -520,7 +523,8 @@
             ],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
-                "keyboard_type": "ansi"
+                "keyboard_type": "ansi",
+                "keyboard_type_v2": "ansi"
             }
         },
         {
@@ -1178,7 +1182,8 @@
             ],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
-                "keyboard_type": "ansi"
+                "keyboard_type": "ansi",
+                "keyboard_type_v2": "ansi"
             }
         }
     ]
