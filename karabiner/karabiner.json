@@ -462,6 +462,15 @@
                         "vendor_id": 936
                     },
                     "ignore": true
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": true,
+                        "product_id": 591,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false
                 }
             ],
             "fn_function_keys": [
@@ -529,6 +538,7 @@
         },
         {
             "complex_modifications": {
+                "parameters": { "basic.simultaneous_threshold_milliseconds": 20 },
                 "rules": [
                     {
                         "manipulators": [
@@ -1012,6 +1022,15 @@
                         "vendor_id": 936
                     },
                     "ignore": true
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": true,
+                        "product_id": 591,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false
                 }
             ],
             "fn_function_keys": [
