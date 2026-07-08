@@ -1,0 +1,106 @@
+{
+  "title": "Switch Karabiner Profile When Change Input Source (EN, JP, TH)",
+  "rules": [
+    {
+      "description": "Switch Profile and Input Source Between EN, JP, TH Using CTRL + Space",
+      "manipulators": [
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "input_source switched",
+              "value": 2
+            }
+          ],
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {"mandatory" : ["left_control"]}
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "^en$"
+              }
+            },
+            {
+              "set_variable": {
+                "name": "input_source switched",
+                "value": 0
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Colemak'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "input_source switched",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {"mandatory" : ["left_control"]}
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "^ja$"
+              }
+            },
+            {
+              "set_variable": {
+                "name": "input_source switched",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Colemak'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "input_source switched",
+              "value": 1
+            }
+          ],
+          "from": {
+              "key_code": "spacebar",
+              "modifiers": {"mandatory" : ["left_control"]}
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "^th$"
+              }
+            },
+            {
+              "set_variable": {
+                "name": "input_source switched",
+                "value": 2
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Mod'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
