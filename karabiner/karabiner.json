@@ -1,8 +1,5 @@
 {
-    "global": {
-        "show_in_menu_bar": false,
-        "show_profile_name_in_menu_bar": true
-    },
+    "global": { "show_in_menu_bar": false },
     "profiles": [
         {
             "complex_modifications": {
@@ -29,7 +26,8 @@
                                             "name": "input_source switched",
                                             "value": 0
                                         }
-                                    }
+                                    },
+                                    { "key_code": "vk_none" }
                                 ],
                                 "to_after_key_up": [{ "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Colemak'" }],
                                 "type": "basic"
@@ -53,7 +51,8 @@
                                             "name": "input_source switched",
                                             "value": 1
                                         }
-                                    }
+                                    },
+                                    { "key_code": "vk_none" }
                                 ],
                                 "to_after_key_up": [{ "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Colemak'" }],
                                 "type": "basic"
@@ -77,7 +76,8 @@
                                             "name": "input_source switched",
                                             "value": 2
                                         }
-                                    }
+                                    },
+                                    { "key_code": "vk_none" }
                                 ],
                                 "to_after_key_up": [{ "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Mod'" }],
                                 "type": "basic"
@@ -552,7 +552,8 @@
                                             "name": "input_source switched",
                                             "value": 0
                                         }
-                                    }
+                                    },
+                                    { "key_code": "vk_none" }
                                 ],
                                 "to_after_key_up": [{ "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Colemak'" }],
                                 "type": "basic"
@@ -576,7 +577,8 @@
                                             "name": "input_source switched",
                                             "value": 1
                                         }
-                                    }
+                                    },
+                                    { "key_code": "vk_none" }
                                 ],
                                 "to_after_key_up": [{ "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Colemak'" }],
                                 "type": "basic"
@@ -600,7 +602,8 @@
                                             "name": "input_source switched",
                                             "value": 2
                                         }
-                                    }
+                                    },
+                                    { "key_code": "vk_none" }
                                 ],
                                 "to_after_key_up": [{ "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Mod'" }],
                                 "type": "basic"

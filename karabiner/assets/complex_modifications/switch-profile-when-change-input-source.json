@@ -28,6 +28,9 @@
                 "name": "input_source switched",
                 "value": 0
               }
+            },
+            {
+              "key_code": "vk_none"
             }
           ],
           "to_after_key_up": [
@@ -60,6 +63,9 @@
                 "name": "input_source switched",
                 "value": 1
               }
+            },
+            {
+              "key_code": "vk_none"
             }
           ],
           "to_after_key_up": [
@@ -92,6 +98,9 @@
                 "name": "input_source switched",
                 "value": 2
               }
+            },
+            {
+              "key_code": "vk_none"
             }
           ],
           "to_after_key_up": [
